@@ -2,31 +2,37 @@
 <html lang="ua">
 
 <head>
+    <meta charset="UTF-8">
     <title>Search</title>
 </head>
 
 <body>
-    <div>
-        <div>
+    <header class="header">
+        <nav class="nav">
             <div>
-                <div>
-                    <a href="images.html">Пошук Зображень</a>
-                </div>
-                <div>
-
-                </div>
+                <ul>
+                    <li class="nav_item">
+                        <a href="images.html">Пошук зображень</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="extended.html">Розширений пошук</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div>
-
-        </div>
+        </nav>
+    </header>
+    <main class="main">
+        <img class="logo" alt="Google" height="92" src="img/google.png" widht="272">
         <div>
             <form action="https://google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
+                <div class="search_input">
+                    <input type="text" name="q">
+                </div>
+                <input type="submit" value="Пошук Google">
+                <input type="submit" value="Мені пощастить">
             </form>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>
